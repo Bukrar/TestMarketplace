@@ -7,5 +7,5 @@
     "email": "dev@company.com"
   },
   "keywords": ["hello", "team"],
-  "commands": ["/commands/hello.md"]
+  "commands": ["./commands/hello.md"]
 }
