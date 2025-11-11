@@ -1,0 +1,11 @@
+{
+  "name": "hello-team",
+  "version": "1.0.0",
+  "description": "團隊問候工具",
+  "author": {
+    "name": "開發團隊",
+    "email": "dev@company.com"
+  },
+  "keywords": ["hello", "team"],
+  "commands": ["hello"]
+}

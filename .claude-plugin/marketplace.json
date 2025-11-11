@@ -1,0 +1,24 @@
+{
+  "name": "TestMarketplace",
+  "owner": {
+    "name": "您的公司/團隊名稱",
+    "email": "dev@company.com"
+  },
+  "metadata": {
+    "description": "公司內部 Claude Code Plugins 集合",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hello-team",
+      "source": "./plugins/hello-team",
+      "description": "團隊問候工具",
+      "version": "1.0.0",
+      "author": {
+        "name": "Igor"
+      },
+      "keywords": ["hello", "team"],
+      "category": "utilities"
+    }
+  ]
+}
