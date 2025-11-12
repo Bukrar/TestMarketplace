@@ -1,0 +1,35 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "permissions": {
+    "allowedTools": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(git *)",
+      "Bash(npm *)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Write(./production.*)"
+    ]
+  },
+  "env": {
+    "EDITOR": "code",
+    "NODE_ENV": "development"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write(*.js)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "prettier --write $file"
+          }
+        ]
+      }
+    ]
+  }
+}
