@@ -1,0 +1,11 @@
+{
+  "name": "config-sync",
+  "version": "1.0.0",
+  "description": "同步團隊的 Claude Code 配置檔案",
+  "author": {
+    "name": "您的名字",
+    "email": "dev@company.com"
+  },
+  "commands": ["./commands/"],
+  "license": "MIT"
+}

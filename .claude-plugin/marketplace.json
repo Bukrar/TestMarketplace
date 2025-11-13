@@ -19,6 +19,18 @@
       },
       "keywords": ["hello", "team"],
       "category": "utilities"
+    },
+    {
+      "name": "config-sync",
+      "source": "./plugins/config-sync",
+      "description": "同步團隊的 Claude Code 配置檔案（CLAUDE.md 和 settings.json）",
+      "version": "1.0.0",
+      "author": {
+        "name": "您的名字"
+      },
+      "keywords": ["config", "sync", "team", "setup"],
+      "category": "productivity",
+      "strict": false
     }
   ]
 }
